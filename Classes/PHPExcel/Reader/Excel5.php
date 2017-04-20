@@ -639,6 +639,7 @@ class PHPExcel_Reader_Excel5 extends PHPExcel_Reader_Abstract implements PHPExce
         $this->dataSize = strlen($this->data);
 
         // initialize
+        //todo: how change $this->codepage?
         $this->pos                 = 0;
         $this->codepage            = 'CP1252';
         $this->formats             = array();
